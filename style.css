@@ -134,28 +134,27 @@ body {
     width: 200px;
 }
 
-
 /* RESPONSIVIDADE */
 
-@media(max-width: 480px){
-
+@media(max-width: 480px) {
     body {
         overflow: hidden;
     }
-    .wrapper{
+
+    .wrapper {
         width: 390px;
         display: block;
     }
 
-    .wrapper.active{
+    .wrapper.active {
         height: 450px;
     }
 
-    .qr-code{
+    .qr-code {
         width: 400px;
     }
 
-    #imgQrCode{
+    #imgQrCode {
         margin: auto;
         height: 170px;
         width: 170px;
@@ -163,7 +162,7 @@ body {
         background-color: green;
     }
 
-    .image{
+    .image {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -174,21 +173,24 @@ body {
     .imgs {
         margin: auto;
     }
-
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     body {
         overflow: hidden;
     }
 
-    .image{
+    .image {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .imgs{
+    .imgs {
         margin: auto;
+    }
+
+    .wrapper .qr-code {
+        max-width: 350px;
     }
 }
